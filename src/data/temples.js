@@ -1,6 +1,8 @@
+
 export const temples = [
   {
     id: "kashi-vishwanath",
+    glink:"https://maps.app.goo.gl/ciiSFTiB3r4sz6Q38",
     name: "Kashi Vishwanath",
     nameDevanagari: "काशी विश्वनाथ",
     region: "Aryavarta",
@@ -16,6 +18,7 @@ export const temples = [
   },
   {
     id: "kedarnath",
+    glink:"https://maps.app.goo.gl/hTA1cQddUu71a14o9",
     name: "Kedarnath Temple",
     nameDevanagari: "केदारनाथ",
     region: "Himalayas",
@@ -31,6 +34,7 @@ export const temples = [
   },
   {
     id: "rameshwaram",
+    glink:"https://maps.app.goo.gl/6YEjrJQNCQLSzBNT7",
     name: "Ramanathaswamy Temple",
     nameDevanagari: "रामनाथस्वामी",
     region: "Dakshinapatha",
@@ -46,6 +50,7 @@ export const temples = [
   },
   {
     id: "dwarka",
+    glink: "https://maps.app.goo.gl/u9cYfdobCpijzNp3A",
     name: "Dwarkadhish Temple",
     nameDevanagari: "द्वारकाधीश",
     region: "Anarta",
@@ -61,6 +66,7 @@ export const temples = [
   },
   {
     id: "konark",
+    glink: "https://maps.app.goo.gl/hJs2WXdjujRh3GcY7",
     name: "Konark Sun Temple",
     nameDevanagari: "कोणार्क",
     region: "Kalinga",
@@ -76,6 +82,7 @@ export const temples = [
   },
   {
     id: "khajuraho",
+    glink: "https://maps.app.goo.gl/gbByuDrbTfRBnQSY7",
     name: "Khajuraho Temples",
     nameDevanagari: "खजुराहो",
     region: "Madhya Pradesh",
@@ -83,7 +90,7 @@ export const temples = [
     era: "Medieval (950-1050 CE)",
     type: "Temple Complex",
     civilization: "Chandela",
-    coordinates: [19.8318, -5.9199],
+    coordinates: [18.8318, -3.9199],
     mythSnippet: "Where divine union celebrates cosmic creation",
     image: "/placeholder.svg",
     deity: "Multiple",
@@ -91,6 +98,7 @@ export const temples = [
   },
   {
     id: "somnath",
+    glink: "https://maps.app.goo.gl/vwixdhzodPGaWrabA",
     name: "Somnath Temple",
     nameDevanagari: "सोमनाथ",
     region: "Anarta",
@@ -106,6 +114,7 @@ export const temples = [
   },
   {
     id: "amarnath",
+    glink: "https://maps.app.goo.gl/nLhRzPAkRKV3978c7",
     name: "Amarnath Cave",
     nameDevanagari: "अमरनाथ",
     region: "Kashmir",
@@ -113,7 +122,7 @@ export const temples = [
     era: "Ancient (Pre-1000 BCE)",
     type: "Cave Temple",
     civilization: "Vedic",
-    coordinates: [34.2268, 75.4977],
+    coordinates: [78.2268, -40.4977],
     mythSnippet: "Where Shiva revealed the secrets of immortality",
     image: "/placeholder.svg",
     deity: "Shiva",
@@ -121,6 +130,7 @@ export const temples = [
   },
   {
     id: "badrinath",
+    glink: "https://maps.app.goo.gl/VoT1zkAgdjkweHST7",
     name: "Badrinath Temple",
     nameDevanagari: "बद्रीनाथ",
     region: "Himalayas",
@@ -128,7 +138,7 @@ export const temples = [
     era: "Ancient (Pre-1000 BCE)",
     type: "Mountain Temple",
     civilization: "Vedic",
-    coordinates: [30.7433, 79.4938],
+    coordinates: [45.7433, -10.4938],
     mythSnippet: "Vishnu's meditation in the Himalayan heights",
     image: "/placeholder.svg",
     deity: "Vishnu",
@@ -136,6 +146,7 @@ export const temples = [
   },
   {
     id: "meenakshi",
+    glink: "https://maps.app.goo.gl/URFFpS8M4z8kabMM7",
     name: "Meenakshi Temple",
     nameDevanagari: "मीनाक्षी",
     region: "Dakshinapatha",
@@ -143,7 +154,7 @@ export const temples = [
     era: "Medieval (1600 CE)",
     type: "Temple Complex",
     civilization: "Dravidian",
-    coordinates: [-68.9195, -5.1193],
+    coordinates: [-71.9195, -22.1193],
     mythSnippet: "The divine marriage of Shiva and Parvati",
     image: "/placeholder.svg",
     deity: "Parvati",
@@ -151,6 +162,7 @@ export const temples = [
   },
   {
     id: "ajanta",
+    glink: "https://maps.app.goo.gl/EitvFgsLAyuqmQ5G8",
     name: "Ajanta Caves",
     nameDevanagari: "अजंता",
     region: "Marathwada",
@@ -158,7 +170,7 @@ export const temples = [
     era: "Ancient (200 BCE - 650 CE)",
     type: "Cave Temple",
     civilization: "Buddhist",
-    coordinates: [20.5520, 75.7033],
+    coordinates: [-8.5520, -35.7033],
     mythSnippet: "Buddha's teachings painted in timeless caves",
     image: "/placeholder.svg",
     deity: "Buddha",
@@ -166,6 +178,7 @@ export const temples = [
   },
   {
     id: "bodh-gaya",
+    glink: "https://maps.app.goo.gl/ZG1o22CHou3umsgF6",
     name: "Mahabodhi Temple",
     nameDevanagari: "महाबोधि",
     region: "Magadha",
@@ -173,7 +186,7 @@ export const temples = [
     era: "Ancient (3rd Century BCE)",
     type: "Buddhist Temple",
     civilization: "Mauryan",
-    coordinates: [24.6958, 84.9914],
+    coordinates: [12.6958, 10.9914],
     mythSnippet: "Where Siddhartha awakened under the Bodhi tree",
     image: "/placeholder.svg",
     deity: "Buddha",
