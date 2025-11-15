@@ -20,7 +20,6 @@ const TrailDetail = () => {
       </div>
     );
   }
-  
   return (
     <div className="min-h-screen pt-20 pb-16">
       {/* Back Button */}
@@ -62,7 +61,7 @@ const TrailDetail = () => {
         <div className="container mx-auto max-w-5xl">
           <div className="relative group">
             <img
-              src={trail1}
+              src={trail.image}
               alt={trail.title}
               className="w-full h-[600px] object-cover rounded-lg shadow-temple border-4 border-temple-gold/30 group-hover:border-temple-gold transition-all duration-500"
             />
